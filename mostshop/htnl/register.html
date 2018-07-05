@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		
+		
+		<!----头部-->
+		<div class="top">
+			<a href="#"><img src="../images/register/register1.jpg"/></a>
+		</div>
+		
+		
+		<!-------注册表-->
+		<div class="register">
+			<div class="register_top">
+				<ul>
+					<li><span>1</span>使用邮箱/手机注册</li>
+					<li><span>2</span>设置用户信息</li>
+					<li><span>3</span>注册成功</li>
+				</ul>
+			</div>
+			
+			<div class="register_center">
+				<form action="entry.html">
+					<p><span>手机邮箱：</span><input type="text" id="t1" placeholder="手机/邮箱" value=""/><em id="s1"></em></p>
+					<p><span>密码：</span><input type="text" id="t2" placeholder="密码" value=""/><em id="s2"></em></p>
+					<p><span>验证码：</span><input type="text" id="t3" placeholder="验证码" value=""/><a href="javascript:;" id="yz"></a><i id="unlook"></i><em id="s3"></em></p>
+					<p><input type="checkbox" checked="checked" name="" value="" />已阅读并同意<a href="#"><<多商分销系统用户协议>></a></p>
+					<input type="submit" id="sub" name="" value="立即注册，领取淘宝课程券" />
+				</form>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		<!--------------底部-->	 
+		<div id="footer">
+			<p></p>
+			<p></p>
+			<p></p>
+			<div class="footer">
+				<ul>
+					<h5>关于多商网</h5>
+					<li><a href="#">了解多商网</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">常见问题</a></li>
+				</ul>
+				<ul>
+					<h5>分销商帮助</h5> 
+					<li><a href="#">如何成为分销商</a></li>
+					<li><a href="#">进货&分销上架流程</a></li>
+				</ul>
+				<ul>
+					<h5>成长路径</h5>
+					<li><a href="#">分销商成长路径</a></li>
+					<li><a href="#">转介绍福利</a></li>
+					<li><a href="#">邀请有奖</a></li>
+				</ul>
+				<ul>
+					<h5>报活动</h5>
+					<li><a href="#">申报活动</a></li>
+					<li><a href="#">活动产品</a></li>
+				</ul>
+				<ul>
+					<h5>供应商帮助</h5>
+					<li><a href="#">如何成为供应商</a></li>
+					<li><a href="#">我要入驻</a></li>
+					<li><a href="#">产品上架流程</a></li>
+				</ul>
+				<ul>
+					<h5>帮助中心</h5>
+					<li><a href="#">找回密码</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">多商学院</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!----------------最底部-->
+		<div class="bottom">
+			<ul>
+				<li>
+					<img src="../images/home/ds_nz_f.jpg" alt="" />
+					<a href="#"><img src="../images/home/hy_83x30.png" alt="" /></a>
+					<a href="#"><img src="../images/home/t01cbeac2c42fe484ab.png" alt="" /></a>
+					
+				</li>
+				<li class="bottom_1">
+					<a href="#">关于我们</a>
+					<a href="#">用户帮助</a>
+					<a href="#">法律申明</a>
+					<a href="#">联系我们</a>
+					<a href="#">多商学院</a>
+					<a href="#">法律证照</a>
+				</li>
+				<li>
+					<a href="#">趋势动力</a>旗下广州友商信息科技有限公司版权所有©2005-2018 <span>粤ICP备11099332号</span><a href="#">站长统计</a>
+      	 
+				</li>
+				
+				<li><a href="#">-珠三角云供应链平台，支持淘宝代销、网店代理，免费提供一件代发</a></li>
+				<li>地址: 广州市中山大道89号天河软件园华景园区B栋西梯五楼  电话：400-616-3518</li>
+			</ul>
+		</div> 
+		
+	</body>
+</html>
+
+
+<script>
+	function $id(id){
+		return document.getElementById(id);
+	}
+	var oT1=$id("t1");	
+	var oT2=$id("t2");
+	var oT3=$id("t3");	
+	var oS1=$id("s1");
+	var oS2=$id("s2");
+	var oS3=$id("s3");
+	function yzm(){
+		var str = "";//存储验证码
+		//取出6位
+		for( var i = 1 ; i <= 4 ; i++ ){
+			var code = rand(48,122);
+			if( code>=58&&code<=64||code>=91&&code<=96 ){
+				//不满足就重新抽
+				i--;
+			}else{
+				//满足 就将code转成字符
+				str += String.fromCharCode(code);
+			}
+		}
+		return str;
+	}
+	//获取任意区间的随机整数   返回随机整数
+	function rand(min,max){
+		return Math.round( Math.random()*(max-min) + min );
+	}
+			$id("yz").innerHTML = yzm();
+	$id("unlook").onclick=function(){
+		
+		$id("yz").innerHTML = yzm();
+	}
+	function pointTrue(x){
+			x.style.display="inline";
+	 		x.style.backgroundImage="url(../images/register/right.png)";
+			x.style.backgroundColor="#fff";
+			x.style.color="#71b83d"
+			x.style.border="0"
+	}
+	function pointFalse(y){
+			y.style.display="inline";
+	 		y.style.backgroundImage="url(../images/register/error.png)";
+			y.style.backgroundColor="#ffbdbe";
+			y.style.color="#f00"
+			y.style.border="1px solid #f00"
+	}
+	//账号
+	
+	var flageName=null;
+	oT1.onblur=function(){
+		var str=this.value;
+		var reg=/^(13|15|18)\d{9}$/;
+		if( reg.test( str ) ){
+			pointTrue(oS1);
+			oS1.style.display="inline"
+			oS1.innerHTML="通过验证信息";
+			flageName=true;
+		}else {
+			flageName=false;
+			pointFalse(oS1);
+			oS1.style.display="inline"
+			oS1.innerHTML="填写错误";
+		}
+	}
+	
+	
+	//密码
+	
+	
+	var flagePwd = null;
+	oT2.onblur = function(){
+		var regNum=/^\d+$/;
+	 	var regLetter=/^[a-z]+$/i;
+	 	var regChar=/^[!@#$%^&*]+$/;
+	 	var _regNum=/\d+/;
+	 	var _regLetter=/[a-z]+/i;
+	 	var _regChar=/[!@#$%^&*]+/; 
+	 	var str=this.value;
+	 	if(str.length<6||str.length>18){
+	 		pointFalse(oS2)
+	 		oS2.innerHTML = "密码在6-18位"; 
+	 		flagePwd=false;
+	 	}else if(regNum.test(str)||regLetter.test(str)||regChar.test(str)){
+	 		pointTrue(oS2)
+	 		oS2.innerHTML = "弱"; 
+	 		flagePwd=true;
+	 	}else if(_regNum.test(str)&&_regLetter.test(str)&&_regChar.test(str)){
+	 		pointTrue(oS2)
+	 		
+	 		oS2.innerHTML = "高强度"; 
+	 		flagePwd=true;
+	 	}else{
+	 		pointTrue(oS2)
+	 		
+	 		oS2.innerHTML = "中"; 
+	 		flagePwd=true;
+	 	}
+	}
+	
+	
+	
+	//验证码  
+	var flageYz = null;
+	oT3.onblur = function(){
+		var str = this.value;
+		var str2 = $id("yz").innerHTML
+		if( str == str2 ){
+			pointTrue(oS3)
+			oS3.innerHTML = "通过验证信息";
+			flageYz = true;
+		}else{
+			pointFalse(oS3)
+			oS3.innerHTML = "填写错误";
+			flageYz = false;
+		}
+	}
+	
+	//注册
+	var oForm = document.querySelector("form");
+	oForm.onclick=function(){
+		if( flageName && flagePwd && flageYz){
+			document.cookie="namer="+oT1.value
+			document.cookie="pwd="+oT2.value
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	
+	
+</script>

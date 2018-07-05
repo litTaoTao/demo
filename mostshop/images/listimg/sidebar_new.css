@@ -1,0 +1,74 @@
+/*在线客服*/
+#kefu{position: fixed;top:50%;right:0px;margin-top: -220px;height:398px;z-index:99999999999;}
+#kefu .kefu{position: absolute;right:0px;width:0px;height:398px;padding-top: 47px;background:url(http://pic.ecduo.cn/Uploads/Picture/2016-08-24/57bd64c3b9abb.png);}
+#kefu .kefu .qq{display: block;margin-bottom: 9px;width:125px;height:30px;margin-left: 60px;}
+#kefu .kefu .liuyan{display: block;width:129px;height:30px;margin-left: 60px;margin-top: 14px;}
+#kefu .kefu .close{position: absolute;width:40px;height:129px;top:158px;left:0px;cursor: pointer;}
+#kefu .open{background:url(http://pic.ecduo.cn/Uploads/Picture/2016-08-24/57bd64c34b2f8.png);position: absolute;width:42px;height:129px;top:158px;right:0px;cursor: pointer;overflow: hidden;}
+
+
+/*在线留言弹窗*/
+.mengban{display: none;width:100%;height:100%;background:#000;position: fixed;top:0px;left:0px;z-index:99999;opacity: 0.3;filter:alpha(opacity=30)}
+.tanchuang{display: none;width:588px;height:319px;position: fixed;top:50%;left:50%;margin-left:-294px;margin-top:-160px;background: #fff;z-index:9999999;}
+.tanchuang h3{font-size:14px;color:#fff;height:42px;line-height: 42px;width:540px;padding:0 24px;text-align: left;background: #f00}
+.tanchuang h3 span{float: left;font-size: 12px;margin-top:-5px;}
+.tanchuang .ly_content{width:540px;height:233px;padding:24px 24px 20px 24px;}
+.tanchuang .ly_content .txt_input{cursor: pointer;border:1px solid #dfdfdf;width:75px;height:30px;line-height: 30px;text-align: center;float: left;margin-right:6px;color:#7c7c7c;}
+.tanchuang .ly_content .txt_click{border-color:#d71e00;background:url(/static/images/click.jpg) no-repeat center center;color:#d71e00;}
+.tanchuang .ly_content textarea{resize: none;width:539px;height:143px;margin-top:8px;color:#b5b5b7;}
+.tanchuang .ly_content .btn_input{width:100px;height:25px;line-height: 25px;text-align: center;background: #f00;border:none;margin:22px auto 0;display: block;color:#fff;cursor: pointer;}
+.close_end {position: absolute;right: 10px;top: 6px;color: #FFF;cursor: pointer;z-index: 2;}
+
+/*回到顶部*/
+#kefu .qq_top{width:60px;height:54px;position:absolute;bottom:-150px;right:0px; margin-top:45px; background:url(../images/edo_ser/edo_ico_44.png) no-repeat left top;text-align:center;}
+#kefu .qq_top a{width:60px;height:54px;display:inline-block;float:left;}
+#kefu .qq_top a span{padding-top:30px; display:inline-block;}
+#kefu  div.qqtopbg{background:url(/html/www.ecduo.cn/templates/styles/default/images/edo_ser/edo_ico_48.png) no-repeat left top;}
+#kefu  div.qqtopbg a.top{color:#fff;}
+#kefu .kefu .qqimgbg .firtop{border-bottom: 0px solid #E2E2E2; }
+#kefu .kefu .qqimgbg .service-block{ padding:0px 0 0px 0px;width:202px;}
+#kefu .kefu .qqimgbg .service-block span{width:100px;display: inline-block; float:left;}
+#kefu .kefu .qqimgbg .service-block b{width:92px;height:22px;display: inline-block;}
+#kefu .kefu .qqimgbg h4{color: #333333; font-size: 12px; font-weight: 700; margin-bottom: 0px;}
+#kefu .kefu .qqimgbg .wws li{height: 20px; line-height: 20px; position: relative;display:inline;}
+#kefu .kefu .qqimgbg .service-content{display:inline-block;padding:0px;}
+#kefu .kefu .qqimgbg .wbtn li{line-height:}
+#kefu .kefu .qqimgbg .service-content li{margin-bottom: 5px;}
+#kefu .kefu .qqimgbg .date{margin-right: 14px;}
+#kefu .kefu .qqimgbg span{color: #333333;}
+
+
+/* J-shoping */
+.deleteBg { background-image: url(../images/edo_ser/deleteBg.jpg); background-repeat: no-repeat; }
+*html .J-shoping { position: absolute; top:expression(eval(document.documentElement.scrollTop));
+margin: 500px 0 0 0; }
+.J-shoping-item { position: relative; padding: 0px 0px; height:24px; }
+.J-shoping-pos { position: absolute; width: 6px; height: 34px; z-index: 920; top: -3px; }
+.J-L-ico { background-position: -55px -84px; left: 0px; }
+.J-R-ico { background-position: -66px -84px; right: 0px; }
+.J-shoping-main { position: relative; }
+.J-shoping-title { height: 27px; cursor: pointer; line-height: 27px; padding: 0px; position: relative; z-index:9999;  }
+.J-shoping-title .J-go { color: #fff; display: block; float: left; }
+.J-shoping-title .J-go em { display: inline-block; width: 17px; height: 14px; vertical-align: middle; margin: -2px 10px 0px 0px; margin-top: 0px\9; background-position: -56px -124px; }
+.J-shoping-body { width: 255px; display: none; border: solid 1px #d6d6d6; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); padding: 10px 10px 35px 10px; position: absolute; bottom: 5px; left: 0px; background: url(../images/edo_ser/p-bg.png) repeat; z-index: 910; }
+.J-shoping-list { padding: 5px; color: #999; border: solid 1px #e3e3e3; background: #fff; height: 50px; margin-bottom: 10px; position: relative; }
+.J-shoping-list-remove { background: #ffd2d3; }
+.J-shoping-list img { float: left; }
+.J-shoping-list-a { float: right; width: 185px; }
+.J-shoping-list-a p { height: 25px; line-height: 25px; }
+.J-shoping-list-a p em { color: #0363BD; font-weight: bold; margin-right: 3px; }
+.J-shoping-close { position: absolute; cursor: pointer; right: 5px; top: 5px; width: 11px; height: 11px; background-position: -32px -147px; overflow: hidden; }
+.J-shoping-close:hover { background-position: -41px -147px; }
+.J-shoping-buy { height: 26px; }
+.J-shoping-buy span { float: left; color: #555; }
+.J-shoping-buy a { width: 112px; height: 26px; background-position: -3px -249px; display: block; float: right; }
+.J-shoping-buy a:hover { background-position: -3px -277px; }
+.J-shoping-px { width: 275px; border: solid 1px #d6d6d6; display: none; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); height: 28px; position: absolute; bottom: 5px; left: 0px; background: url(../images/edo_ser/p-bg.png) repeat; z-index: 905; }
+.J-shoping-mx { width: 113px; position: absolute; left: -3px; top: -3px; height: 3px; background-position: -4px -187px; z-index: 921; }
+.J-shoping-small { width:22px!important; float:left;}
+#ljuppro:hover{ opacity:0.8;}
+#kefu .qq_cart{width:60px;height:69px;display:inline-block;float:left;background:url(../images/edo_ser/edo_ico_43.jpg) no-repeat; margin-bottom: 10px;position:absolute;bottom:-110px;right:0px;}
+#kefu a.img_a{width:60px;height:69px;display:inline-block;float:left; text-align:center; position:relative;}
+#kefu a.img_a span{padding-top:46px; display:inline-block;}
+#kefu a.img_a b { border: solid 1px #f8f8f8; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px; background: #d71e00; font-size: 10px; color: #fff; padding: 0px 3px; font-weight: normal; position: absolute; top: 7px; right: 11px; height: 13px; line-height: 13px; }
+

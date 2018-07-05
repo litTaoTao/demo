@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/entry.css"/>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<!----头部-->
+		<div class="top">
+			<a href="#"><img src="../images/register/register1.jpg"/></a>
+		</div>
+		
+		
+		
+		
+		
+	<!--------------登录-->	
+		<div class="entry">
+			<div class="entry_left">
+				<a href="#"><img src="../images/entry/5a94bc2114e30.jpg"/></a>
+			</div>
+			
+			<div class="entry_right">
+				<form action="home.html">
+					<input type="text" id="t1" placeholder="用户名/邮箱/手机号码" value=""/>
+					<input type="text" placeholder="密码" id="t2" value=""/>
+					<p><input type="checkbox" checked="checked" name="" id="" value="" />下次自动登录<a href="#">忘记密码？</a></p>
+					<input type="submit" name="" id="b" value="" />
+					<p><a href="#">微信</a><a href="register.html">立即注册？</a></p>
+					
+				</form>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--------------底部-->	 
+		<div id="footer">
+			<div class="footer">
+				<ul>
+					<h5>关于多商网</h5>
+					<li><a href="#">了解多商网</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">常见问题</a></li>
+				</ul>
+				<ul>
+					<h5>分销商帮助</h5> 
+					<li><a href="#">如何成为分销商</a></li>
+					<li><a href="#">进货&分销上架流程</a></li>
+				</ul>
+				<ul>
+					<h5>成长路径</h5>
+					<li><a href="#">分销商成长路径</a></li>
+					<li><a href="#">转介绍福利</a></li>
+					<li><a href="#">邀请有奖</a></li>
+				</ul>
+				<ul>
+					<h5>报活动</h5>
+					<li><a href="#">申报活动</a></li>
+					<li><a href="#">活动产品</a></li>
+				</ul>
+				<ul>
+					<h5>供应商帮助</h5>
+					<li><a href="#">如何成为供应商</a></li>
+					<li><a href="#">我要入驻</a></li>
+					<li><a href="#">产品上架流程</a></li>
+				</ul>
+				<ul>
+					<h5>帮助中心</h5>
+					<li><a href="#">找回密码</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">多商学院</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!----------------最底部-->
+		<div class="bottom">
+			<ul>
+				<li>
+					<img src="../images/home/ds_nz_f.jpg" alt="" />
+					<a href="#"><img src="../images/home/hy_83x30.png" alt="" /></a>
+					<a href="#"><img src="../images/home/t01cbeac2c42fe484ab.png" alt="" /></a>
+					
+				</li>
+				<li class="bottom_1">
+					<a href="#">关于我们</a>
+					<a href="#">用户帮助</a>
+					<a href="#">法律申明</a>
+					<a href="#">联系我们</a>
+					<a href="#">多商学院</a>
+					<a href="#">法律证照</a>
+				</li>
+				<li>
+					<a href="#">趋势动力</a>旗下广州友商信息科技有限公司版权所有©2005-2018 <span>粤ICP备11099332号</span><a href="#">站长统计</a>
+      	 
+				</li>
+				
+				<li><a href="#">-珠三角云供应链平台，支持淘宝代销、网店代理，免费提供一件代发</a></li>
+				<li>地址: 广州市中山大道89号天河软件园华景园区B栋西梯五楼  电话：400-616-3518</li>
+			</ul>
+		</div> 
+		
+		
+	</body>
+</html>
+<script>
+	
+	
+	function $id(id){
+		return document.getElementById(id);
+	}
+	var oT1=$id("t1");
+	var oT2=$id("t2");
+	
+	var oCook=document.cookie;
+	if(oCook!=""){
+		arr=oCook.split(";");
+		str1=arr[0].split("=")[1];			//账号
+		str2=arr[1].split("=")[1];			//密码	
+	}
+	
+	
+	var flageName=null;
+	oT1.onblur=function(){
+		oT1Vlue=oT1.value;
+		/*if(oT1Vlue==null){
+			return false
+		}*/
+		if(oT1Vlue==str1){
+			flageName=true;
+		}else{
+			flageName=false;
+		}
+	}
+	
+	
+	var flagePwd=null;
+	oT2.onblur=function(){
+		oT2Vlue=oT2.value;
+		if(oT2Vlue==str2){
+			flagePwd=true;
+		}else{
+			flagePwd=false;
+		}
+	}
+	
+	
+	
+	
+	//登录
+	var oB = document.getElementById("b");
+	oB.onclick=function(){
+		if(flageName&&flagePwd){
+			return true;
+		}else {
+			alert("密码或账号不符合")
+			return false;
+		}
+	}
+</script>

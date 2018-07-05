@@ -1,0 +1,154 @@
+@charset "utf-8";
+* { margin: 0; padding: 0; list-style-type: none; }
+a, img { border: 0; }
+body { font: 12px/180% Arial, Helvetica, sans-serif, "新宋体"; }
+p { word-wrap: break-word; }
+.left { float: left; }
+.right { float: right; }
+.block { display: block; }
+.clear { clear: both; }
+em, i { font-style: normal; }
+/* J-shoping */
+.baseBg { background-image: url(../images/base_bg.png); background-repeat: no-repeat; }
+.deleteBg { background-image: url(../images/deleteBg.jpg); background-repeat: no-repeat; }
+*html .J-shoping { position: absolute; top:expression(eval(document.documentElement.scrollTop));
+margin: 500px 0 0 0; }
+.J-shoping-item { position: relative; padding: 0px 0px; height:24px; }
+.J-shoping-pos { position: absolute; width: 6px; height: 34px; z-index: 920; top: -3px; }
+.J-L-ico { background-position: -55px -84px; left: 0px; }
+.J-R-ico { background-position: -66px -84px; right: 0px; }
+.J-shoping-main { position: relative; }
+.J-shoping-title { height: 27px; cursor: pointer; line-height: 27px; padding: 0px; position: relative; z-index:9999;  }
+.J-shoping-title .J-go { color: #fff; display: block; float: left; }
+.J-shoping-title .J-go em { display: inline-block; width: 17px; height: 14px; vertical-align: middle; margin: -2px 10px 0px 0px; margin-top: 0px\9; background-position: -56px -124px; }
+.J-shoping-body { width: 255px; display: none; border: solid 1px #d6d6d6; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); padding: 10px 10px 35px 10px; position: absolute; bottom: 5px; left: 0px; background: url(../images/p-bg.png) repeat; z-index: 910; }
+.J-shoping-list { padding: 5px; color: #999; border: solid 1px #e3e3e3; background: #fff; height: 50px; margin-bottom: 10px; position: relative; }
+.J-shoping-list-remove { background: #ffd2d3; }
+.J-shoping-list img { float: left; }
+.J-shoping-list-a { float: right; width: 185px; }
+.J-shoping-list-a p { height: 25px; line-height: 25px; }
+.J-shoping-list-a p em { color: #0363BD; font-weight: bold; margin-right: 3px; }
+.J-shoping-close { position: absolute; cursor: pointer; right: 5px; top: 5px; width: 11px; height: 11px; background-position: -32px -147px; overflow: hidden; }
+.J-shoping-close:hover { background-position: -41px -147px; }
+.J-shoping-buy { height: 26px; }
+.J-shoping-buy span { float: left; color: #555; }
+.J-shoping-buy a { width: 112px; height: 26px; background-position: -3px -249px; display: block; float: right; }
+.J-shoping-buy a:hover { background-position: -3px -277px; }
+.J-shoping-px { width: 275px; border: solid 1px #d6d6d6; display: none; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); height: 28px; position: absolute; bottom: 5px; left: 0px; background: url(../images/p-bg.png) repeat; z-index: 905; }
+.J-shoping-mx { width: 113px; position: absolute; left: -3px; top: -3px; height: 3px; background-position: -4px -187px; z-index: 921; }
+.J-shoping-small { width:22px!important; float:left;}
+#floatOrder { width: 50px; height: 50px; padding: 0px; background: #fff; border: solid 2px #e54144; overflow: hidden; position: absolute; z-index: 890; }
+.Q-online { width: 28px; height: 20px; display: block; background-position: -78px -130px; position: fixed; right: 10px; bottom: 13px; }
+*html .Q-online { position: absolute; top:expression(eval(document.documentElement.scrollTop));
+margin: 500px 0 0 0; }
+#U-attion { display: block; width: 120px; padding-right: 20px; height: 28px; background: #eee; line-height: 28px; text-align: center; border: solid 1px #d0d0d0; color: #181818; position: absolute; left: -145px; top: -2px; }
+#U-attion em { display: inline-block; vertical-align: middle; margin: -2px 5px 0px 0px; margin-top: 0px\9; width: 16px; height: 15px; background-position: -65px -47px; }
+#U-attion span { display: inline-block; width: 22px; height: 11px; background-position: -65px -32px; position: absolute; right: 5px; top: 2px; }
+/* M-main */
+#M-main-b { background: #fafafa; padding: 0px 10px; width: 996px; border-top: solid 2px #4daedd; margin: 40px auto; }
+.M-main-list { width: 100%; padding: 15px 0px; border-bottom: dashed 1px #e3e3e3; height: 65px; }
+.M-main-A { width: 45%; height: 63px; line-height: 22px; padding-top: 2px; }
+.M-main-A-a { float: left; width: 20%; position: relative; }
+.M-main-A-a img { display: block; margin: 0px auto; }
+.M-main-A-a span { display: block; width: 13px; height: 13px; position: absolute; right: 0px; bottom: 0px; }
+.M-main-A-b { float: right; width: 75%; }
+.M-main-A-b h3 { font-size: 14px; }
+.M-main-A-b h3 em { display: inline-block; vertical-align: middle; margin: -2px 0px 0px 5px; margin-top: 0px\9; }
+.M-main-A-b h3 em.ico1 { background-position: -25px -67px; width: 17px; height: 19px; }
+.M-main-A-b h3 em.ico2 { background-position: -3px -67px; width: 17px; height: 16px; }
+.M-main-A-b h3 a { color: #0162bc; }
+.M-main-A-b h3 span { color: #7c7c7c; font-size: 12px; font-weight: normal; }
+.M-main-A-b p { color: #999; }
+.M-main-A-b span { margin-left: 10px; }
+.M-main-B { width: 10%; text-align: center; padding-top: 10px; }
+.M-main-B span { color: #0363bd; font-weight: bold; margin-right: 3px; }
+.M-main-B .num { color: #999; }
+.M-main-B .Number { padding-top: 14px; }
+.M-main-C { width: 15%; text-align: center; padding-top: 10px; }
+.M-main-C a { color: #787878; text-decoration: underline; }
+.M-main-D { width: 11%; padding-left: 4%; text-align: left; color: #999; padding-top: 10px; position: relative; }
+.M-main-D del { margin: 0px 3px; }
+.M-main-D span { font-weight: bold; color: #ff4400; margin: 0px 3px; }
+.M-main-D em { position: absolute; left: 5px; top: 30px; }
+.M-main-E { width: 15%; height: 65px; text-align: center; }
+.M-main-E a { display: block; color: #fff; background-position: -6px -193px; width: 75px; height: 21px; line-height: 21px; padding-left: 30px; margin: 12px auto 0px; }
+.M-main-E a:hover { text-decoration: none; }
+.M-main-E a.dis-click { background-position: -3px -307px; color: #cdcdcd; cursor: default; }
+.M-main-E span { cursor: pointer; color: #666; }
+.M-main-E span.attention-btn-gz { color: #4ca100; cursor: default; }
+.M-main-E span:hover { text-decoration: underline; }
+.M-main-E span.attention-btn-gz:hover { text-decoration: none; }
+
+.lst-meta .tjrarb { clear: both; margin-right: 6px; float: right; }
+.lst-meta .tjrar { clear: left; margin-right: 27px; float: right; }
+#ljuppro:hover{ opacity:0.8;}
+
+.box_erweiW { height: 128px; width: 152px; border: 1px solid #d3d3d3; z-index:9;}
+.box_erwei_big { right: 0; position: relative; text-align: center; top: 0; z-index: 5000; background:url(../images/upprotipw_03.jpg) no-repeat center 20px #f8f8f8; height: 128px; width: 152px; }
+.box_erweiW { margin-top: 0px; position: fixed; right: 0px; top: 462px; _position: absolute; _bottom: auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+}
+.box_erweiW .block { display: block; }
+*html { background-image: url(about:blank); background-attachment: fixed; }/*解决IE6下滚动抖动的问题*/
+#box_erweiW #mumayiright p b{color:#d71e00;font-size:18px;}
+#box_erweiW #mumayiright .cartnum{color:#676767;font-size:12px;padding:50px 0px 16px;}
+.lst-meta #look_fee{width:150px;}
+#allsort{z-index:100;}
+.QQbox{z-index:99!important;}
+
+/**广告引导功能样式**/
+.tipbar,.tipbox,.progress li,.tipword,.tipbar .arrow,.tipBarword,.tipSwitch{}
+#searchTip{}
+.tipbox{width:422px;position:relative;height:333px;display:none;}
+.tipbox .tipboxBtn{cursor: pointer; display: inline-block; height: 30px; position: absolute; right: 89px; top: 49px; width: 32px;}
+.tipboxNextbtn{cursor: pointer; display: inline-block; height: 38px; left: 439px; position: absolute; top: 242px; width: 114px;}
+.tipboxregert{cursor: pointer; display: inline-block; height: 38px; left:160px; position: absolute; top: 136px; width: 114px;float:left;text-indent:-9999px;overflow:hidden;}
+.progress{position:absolute;left:71px;top:136px;width:90px;height:9px;line-height:9px;font-size:0px;}
+.progress li{float:left;width:9px;height:9px;margin-right:6px;font-size:0px;background-position:-829px -311px;}
+.progress .on{background-position:-840px -311px;}
+.tipword{position:absolute;}
+#step1{z-index:1005;background:url(http://www.ecduo.cn/html/www.ecduo.cn/templates/styles/default/images/tipimgzqa.jpg) no-repeat left top;}
+#step2{z-index:1004;background:url(http://www.ecduo.cn/html/www.ecduo.cn/templates/styles/default/images/tipimgzqb.jpg) no-repeat left top;}
+#step3{z-index:1003;background:url(../images/upprotip.png) no-repeat left top;display:block;right:-271px;}
+#step4{z-index:1002;}
+#step5{z-index:1001;}
+#step6{z-index:1000;}
+#step1 .tipword{width:242px;height:58px;left:33px;top:54px;background-position:-1px -519px;}
+#step2 .tipword{width:203px;height:58px;left:46px;top:54px;background-position:-643px -326px;}
+#step3 .tipword{width:223px;height:58px;left:37px;top:54px;background-position:-266px -520px;}
+#step4 .tipword{width:202px;height:74px;left:50px;top:47px;background-position:-642px -388px;}
+#step5 .tipword{width:240px;height:56px;left:32px;top:56px;background-position:-497px -522px;}
+#step6{width:335px;height:201px;background-position:-301px -312px;}
+#step6 .tipboxBtn{left:266px;top:38px;}
+#step6 .tipboxNextbtn{left:141px;top:128px;}
+.tipbarwrap{position:absolute;width:100%;height:1px;left:0px;top:0px;z-index:1000;background-color:transparent;}
+.tipbardiv{position:relative;width:900px;height:1px;margin:0px auto;}
+.tipbar{display:none;position:absolute;z-index:1000;}
+.tipbarInner{position:relative;}
+.tipbar .arrow{width:70px;height:46px;background-position:-193px -216px;position:absolute;}
+.tipBarword{position:absolute;}
+#tipbar1{width:496px;height:40px;background-position:0px -171px;left:-7px;top:116px;}
+#tipbar1 .arrow{left:509px;top:0px;}
+#tipbar1 .tipBarword{width:166px;height:25px;left:586px;top:0px;background-position:-334px -216px;}
+#tipbar2{width:106px;height:39px;background-position:-744px -489px;top:163px;left:0px;}
+#tipbar2 .arrow{left:111px;top:-3px;}
+#tipbar2 .tipBarword{width:224px;height:24px;left:187px;top:-1px;background-position:-197px -262px;}
+.clear{font-size:0px;line-height:0px;height:0px;overflow:hidden;}
+#tipbar3{width:840px;height:170px;background-position:0px 0px;left:3px;top:202px;}
+#tipbar3 .arrow{left:513px;top:-35px;}
+#tipbar3 .tipBarword{width:224px;height:24px;background-position:-196px -288px;left:589px;top:-36px;}
+#tipbar4{width:189px;height:94px;background-position:0px -213px;left:714px;top:393px;}
+#tipbar4 .arrow{left:-60px;top:-28px;background-position:-263px -216px;}
+#tipbar4 .tipBarword{width:315px;height:25px;background-position:-524px -265px;left:-120px;top:-55px;}
+#tipbar5{width:255px;height:34px;background-position:-585px -170px;left:487px;top:120px;}
+#tipbar5 .arrow{left:301px;top:-8px;}
+#tipbar5 .tipBarword{width:194px;height:54px;top:-4px;left:356px;background-position:-644px -207px;}
+#tipbar1 .tipbarInner{width:454px;height:41px;}
+#tipbar2 .tipbarInner{width:106px;height:39px;}
+#tipbar3 .tipbarInner{width:840px;height:170px;}
+#tipbar4 .tipbarInner{width:189px;height:94px;}
+#tipbar5 .tipbarInner{width:255px;height:34px;}
+.notip{position:absolute;left:230px;top:132px;display:none;}
+#notip{vertical-align:middle;}
+.notip label{vertical-align:middle;color:#0c5685;}
+.tipSwitch{width:80px;height:26px;cursor:pointer;background-position:-512px -212px;cursor:pointer;position:absolute;top:48px;right:185px;}
+

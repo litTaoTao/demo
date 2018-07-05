@@ -1,0 +1,88 @@
+
+#webget_1{position:relative;}
+#webget_1 .slides{overflow:hidden;}
+#webget_1 .slides li{height:522px;}
+#webget_1 .slides a{height:522px;display:block;}
+.flex-direction-nav{display:none;  }
+.nv_content{width:1220px;margin:0 auto;}
+.flexslider{posiiton:absolute;}
+.flexslider .flex-control-nav li{display:inline-block;}
+.flexslider .flex-control-nav li a{width:14px;height:14px;margin:0 4px;display:block;line-height:100px;overflow:hidden;
+    background:#fff;opacity:0.5;
+    border-radius:7px;}
+.flexslider .flex-control-nav li a.flex-active{background:#fff;opacity:1;}
+.flex-control-nav{position:absolute;top:334px;right:50%;z-index:9;margin-right:-300px;}
+
+.listad{overflow:hidden;}
+.listad li{float:left;}
+.listad li a{display:block;}
+#webget_2{position:relative;width:1220px;z-index:99;margin:0 auto;}
+#webget_2 .listad li{top:-151px;position:absolute;}
+#webget_2 .listad .lis_1{left:0;}
+#webget_2 .listad .lis_2{left:309px;}
+#webget_2 .listad .lis_3{left:618px;}
+#webget_2 .listad .lis_4{right:0;top:-515px;}
+
+.nav-wrap.navFix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+    border-bottom: 1px solid #e3e3e3\9;
+    z-index: 99999;
+}
+.nav-wrap ul{width:1224px;margin:0 auto;overflow:hidden;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;}
+.nav-wrap {
+    width: 100%;
+    /*height: 40px;*/
+    background: #fff;
+    border-bottom:1px solid #e3e3e3;
+}
+.nav-wrap ul li{float:left;padding:0 20px;height: 40px;line-height: 40px;background:url(/static/images/front/nz_08.jpg) no-repeat left center;}
+.nav-wrap ul li:nth-of-type(1){background:none;}
+.nav-wrap ul li a{font-size: 14px;display:block;line-height: 40px;height: 40px;color:#000;}
+.nav-wrap ul li a.active{border-bottom:1px solid #d71e00;color:#d71e00;}
+
+.goodlist{overflow:hidden;padding-top:10px;}
+.goodlist li{float:left;width:218px;background:#fff;padding:8px;border:1px solid #e8e8e8;margin:0 4px 8px;}
+.goodlist li:hover{box-shadow:0 0 6px;}
+.goodlist li .pic{width:218px;height:218px;overflow:hidden;}
+.goodlist li .title{line-height:22px;height:44px;overflow:hidden;color:#000;display: block;}
+.goodlist li .warp{overflow:hidden;}
+.goodlist li .warp .gs_name{float:left;width: 88px;text-overflow:ellipsis;overflow:hidden;white-space: nowrap;line-height:32px;height:32px;}
+.goodlist li .warp .xiaoliang{float:right;padding-left:10px;background:url(/static/images/front/xp_titbgb.gif) no-repeat left center;line-height:32px;height:32px;}
+.goodlist li .warp .xiaoliang span{color:#b57c5b;}
+.goodlist li .warp .loginLook{height:24px;line-height:30px;float:left;color:#d71e00;}
+.goodlist li .warp .upBtn{padding:0 10px;background:#d71e00;color:#fff;font-size: 12px;line-height:24px;height:24px;float:right;}
+
+#webget_3{background:#f3f3f3;padding-bottom:144px;}
+
+.goods_title{text-align:center;background:url(/static/images/front/nz_09.jpg) no-repeat top center;height:42px;line-height:58px;font-size:16px;}
+
+/******************************/
+
+.top_con{float:right;font-size:0;}
+.top_con .right-item{display:inline-block;font-size:12px;margin:0 20px;}
+.top_con .right-item .buy .num{
+    display: inline-block;
+    background: #f00;
+    color: #fff;
+    vertical-align: top;
+    height: 15px;
+    padding: 0 4px 0 7px;
+    line-height: 15px;
+    position: relative;
+    margin-top:6px;
+    margin-right:10px;}
+.top_con .right-item .buy .num:before {
+    content: "";
+    width: 0;
+    height: 0;
+    top: 4px;
+    position: absolute;
+    border-top: 4px solid transparent;
+    border-left: 4px solid red;
+    border-bottom: 4px solid transparent;
+    right:-4px;
+}
+.top_con .right-item .downLoad .pic{display:inline-block;vertical-align:top;margin-right:0px;margin-top: 5px;}

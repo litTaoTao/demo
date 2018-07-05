@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, td, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset, iframe {
+  border: 0; }
+
+img {
+  display: block;
+  border: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+input {
+  border: 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  color: red; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=public.css.map */

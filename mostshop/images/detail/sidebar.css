@@ -1,0 +1,161 @@
+/** 右侧悬浮模块 **/
+.recommend_fix{ width:60px; position:fixed; right:10px;height:auto;  z-index:100;top:220px; }
+.recommend_fix #navvigation_6 span{ font-size:15px; color:#fff;}
+.recommend_fix .recommend_fix_hd{ height:20px; width:20px;background:url(../images/edo_ser/oxbnav_03.jpg) no-repeat;position:absolute;right:2px;top:0px;cursor:pointer; }
+.recommend_fix .recommend_fix_bd{display:inline-block;}
+.recommend_fix .recommend_fix_bd .recommend_fix_menu ul li{ height:auto; line-height:23px;  padding-left:0px; margin-bottom:5px;  }
+.recommend_fix .recommend_fix_bd .qq_cart{width:60px;height:69px;display:inline-block;float:left;background:url(../images/edo_ser/edo_ico_43.jpg) no-repeat; margin-bottom: 10px;}
+.recommend_fix .recommend_fix_bd .qq_cart a.img_a{width:60px;height:69px;display:inline-block;float:left; text-align:center; position:relative;}
+.recommend_fix .recommend_fix_bd .qq_cart a.img_a span{padding-top:46px; display:inline-block;}
+.recommend_fix .recommend_fix_bd .qq_cart a.img_a b { border: solid 1px #f8f8f8; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px; background: #d71e00; font-size: 10px; color: #fff; padding: 0px 3px; font-weight: normal; position: absolute; top: 7px; right: 11px; height: 13px; line-height: 13px; }
+.recommend_fix .recommend_fix_bd div.cartbg {background:url(/html/www.ecduo.cn/templates/styles/default/images/edo_ser/edo_ico_47.jpg) no-repeat left top;}
+.recommend_fix .recommend_fix_bd div.cartbg a{color:#fff;}
+.recommend_fix .recommend_fix_bd .qq_oline{width:57px;height:53px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .qq_oline a.qqnumber{width:57px;height:53px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .qq_oline a.qqnumber span{display:inline-block;width:30px;height:36px;margin-top:8px;}
+.recommend_fix .recommend_fix_bd .qq_oline a.qqnumber .icon{position: absolute;top:0px;left:0px;width:100%;height:100%;background: url(/static/images/icon3.png) 0 0;display: none;}
+.recommend_fix .recommend_fix_bd div .txt{background:url(/static/images/icon3.png) 0px -265px;width:57px;height:53px;}
+.recommend_fix .recommend_fix_bd div.qqonlinebg{}
+.recommend_fix .recommend_fix_bd div.qqonlinebg .qqnumber span{color:#fff;}
+.recommend_fix .recommend_fix_bd .qq_top{width:60px;height:54px;float:left; margin-top:45px; background:url(../images/edo_ser/edo_ico_44.png) no-repeat left top;text-align:center; display:none;}
+.recommend_fix .recommend_fix_bd .qq_top a{width:60px;height:54px;display:inline-block;float:left;}
+.recommend_fix .recommend_fix_bd .qq_top a span{padding-top:30px; display:inline-block;}
+.recommend_fix .recommend_fix_bd div.qqtopbg{background:url(/html/www.ecduo.cn/templates/styles/default/images/edo_ser/edo_ico_48.png) no-repeat left top;}
+.recommend_fix .recommend_fix_bd div.qqtopbg a.top{color:#fff;}
+.recommend_fix .recommend_fix_bd .qqimgbg .firtop{border-bottom: 0px solid #E2E2E2; }
+.recommend_fix .recommend_fix_bd .qqimgbg .service-block{ padding:0px 0 0px 0px;width:202px;}
+.recommend_fix .recommend_fix_bd .qqimgbg .service-block span{width:100px;display: inline-block; float:left;}
+.recommend_fix .recommend_fix_bd .qqimgbg .service-block b{width:92px;height:22px;display: inline-block;}
+.recommend_fix .recommend_fix_bd .qqimgbg h4{color: #333333; font-size: 12px; font-weight: 700; margin-bottom: 0px;}
+.recommend_fix .recommend_fix_bd .qqimgbg .wws li{height: 20px; line-height: 20px; position: relative;display:inline;}
+.recommend_fix .recommend_fix_bd .qqimgbg .service-content{display:inline-block;padding:0px;}
+.recommend_fix .recommend_fix_bd .qqimgbg .wbtn li{line-height:}
+.recommend_fix .recommend_fix_bd .qqimgbg .service-content li{margin-bottom: 5px;}
+.recommend_fix .recommend_fix_bd .qqimgbg .date{margin-right: 14px;}
+.recommend_fix .recommend_fix_bd .qqimgbg span{color: #333333;}
+div.qqconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom:104px;z-index:100;}
+div.qqconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.qqconter .border_sj{color: #d6cfc9;font-style:normal;}
+div.qqconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff;}
+
+.recommend_fix .recommend_fix_bd .wx_ecduo{width:60px;height:64px;margin-top: 20px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .wx_ecduo a.wxnumber{width:60px;height:64px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .wx_ecduo a.wxnumber span{ display:inline-block;color:#fff;}
+.recommend_fix .recommend_fix_bd .wx_gzh{width:60px;height:64px;margin-top: 20px;display:inline-block;float:left;position:relative;background:url(/html/www.ecduo.cn/templates/styles/default/images/edo_ser/wx_gzh.png) no-repeat left top;}
+.recommend_fix .recommend_fix_bd .wx_gzh a.wxnumber{width:60px;height:64px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .wx_gzh a.wxnumber span{padding-top:40px; display:inline-block;color:#fff;}
+div.wxconter{display:none;position:absolute;top:-155px;left:-218px;width:206px;height:238px;font-size:12px;border:1px solid #d6cfc9;background:#fff;}
+div.wxconter span{display:block;color:#333;text-align:center;}
+div.wxconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom: 24px;z-index:100;}
+div.wxconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.wxconter .border_sj{color: #d6cfc9;font-style:normal;}
+div.wxconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff;}
+
+
+/*APP下载*/
+.recommend_fix .recommend_fix_bd .app_ecduo{width:57px;height:53px;margin-top: 4px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .app_ecduo a.wxnumber{width:57px;height:53px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .app_ecduo a.wxnumber span{ display:inline-block;color:#fff;width:30px;height:36px;margin-top:8px;}
+.recommend_fix .recommend_fix_bd .app_ecduo a.wxnumber .icon{position: absolute;top:0px;left:0px;width:100%;height:100%;background: url(/static/images/icon3.png) 0 -53px;display: none;}
+div.appconter{display:none;position:absolute;top:-155px;left:-300px;width:206px;height:238px;font-size:12px;border:1px solid #d6cfc9;background:#fff;}
+div.appconter span{display:block;color:#333;text-align:center;}
+div.appconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom: 24px;z-index:100;}
+div.appconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.appconter .border_sj{color: #d6cfc9;font-style:normal;}
+div.appconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff;}
+
+/*微信客服*/
+.recommend_fix .recommend_fix_bd .wx_ecduo{width:57px;height:53px;margin-top: 4px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .wx_ecduo a.wxnumber{width:57px;height:53px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .wx_ecduo a.wxnumber span{ display:inline-block;color:#fff;width:30px;height:36px;margin-top:8px;}
+.recommend_fix .recommend_fix_bd .wx_ecduo a.wxnumber .icon{position: absolute;top:0px;left:0px;width:100%;height:100%;background: url(/static/images/icon3.png) 0 -106px;display: none;}
+div.wxconter{display:none;position:absolute;top:-155px;left:-300px;width:206px;height:238px;font-size:12px;border:1px solid #d6cfc9;background:#fff;}
+div.wxconter span{display:block;color:#333;text-align:center;}
+div.wxconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom: 24px;z-index:100;}
+div.wxconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.wxconter .border_sj{color: #d6cfc9;font-style:normal;}
+div.wxconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff;}
+
+/*电商培训*/
+.recommend_fix .recommend_fix_bd .px_ecduo{width:57px;height:53px;margin-top: 4px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .px_ecduo a.wxnumber{width:57px;height:53px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .px_ecduo a.wxnumber span{ display:inline-block;color:#fff;width:30px;height:36px;margin-top:8px;}
+.recommend_fix .recommend_fix_bd .px_ecduo a.wxnumber .icon{position: absolute;top:0px;left:0px;width:100%;height:100%;background: url(/static/images/icon3.png) 0 -159px;display: none;}
+div.pxconter{display:none;position:absolute;top:-128px;left:-300px;width:206px;height:206px;font-size:12px;border:1px solid #d6cfc9;background:#fff;text-align: center;}
+div.pxconter span{display:block;color:#333;text-align:center;}
+div.pxconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom: 24px;z-index:100;}
+div.pxconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.pxconter .border_sj{color: #d6cfc9;font-style:normal;}
+div.pxconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff;}
+div.pxconter h3{font-size:14px;color:#ff3c3c;padding:15px 0 10px;}
+div.pxconter p{line-height: 22px;color:#000;}
+div.pxconter p span{font-size:14px;font-weight: bold;color:#000;}
+div.pxconter .baoming{display: inline-block;color:#0067af;font-size: 14px;text-decoration:underline;margin-top:5px;}
+/*温馨提示*/
+.recommend_fix .recommend_fix_bd .tip_ecduo{width:57px;height:53px;margin-top: 4px;display:inline-block;float:left;position:relative;}
+.recommend_fix .recommend_fix_bd .tip_ecduo a.wxnumber{width:57px;height:53px;display:inline-block;float:left; text-align:center;}
+.recommend_fix .recommend_fix_bd .tip_ecduo a.wxnumber span{ display:inline-block;color:#fff;width:30px;height:36px;margin-top:8px;}
+.recommend_fix .recommend_fix_bd .tip_ecduo a.wxnumber .icon{position: absolute;top:0px;left:0px;width:100%;height:100%;background: url(/static/images/icon3.png) 0 -212px;display: none;}
+div.tipconter{display:none;position:absolute;top:-95px;left:-300px;width:206px;height:172px;font-size:12px;border:1px solid #ffba82;background:#fff5c4;}
+div.tipconter span{display:block;color:#333;text-align:center;}
+div.tipconter .asid_share_triangle{width:12px;height:40px;position:absolute;right: -4px;bottom: 24px;z-index:100;}
+div.tipconter .border_sj,.con_sj{display:block;width:18px;height:28px;font-size:18px;overflow:hidden;font-family: SimSun;}
+div.tipconter .border_sj{color: #ffba82;font-style:normal;}
+div.tipconter .con_sj{color:white;margin:-14px -2px 0 0;margin:-28px 0 0 -2px;color:#fff5c4;}
+div.tipconter h3{text-align: center;line-height: 20px;color:#ff3c3c;padding:20px 0 15px;}
+div.tipconter p{color:#000000;line-height: 22px;padding:0 7px;}
+
+
+* html {background-image:url(about:blank);background-attachment:fixed}
+* html .recommend_fix{position:absolute;right:expression(eval(document.documentElement.scrollLeft+10));top:expression(eval(document.documentElement.scrollTop+124))}
+div.qqconter{display:none;position:absolute;top:-140px;left:-300px;width:206px;height:297px;font-size:12px;background:url(../images/edo_ser/edo_ico_45.jpg) no-repeat 15px 227px #fafafa; border:1px solid #d6cfc9;}
+div.qqconter ul{margin:25px 0 0px;line-height:1.6em;padding:0 13px 25px 13px;}
+/**上架篮**/
+.box_erweiW { height: 128px; width: 152px; border: 1px solid #d3d3d3; z-index:9;margin-top: 0px; position:absolute; left:-152px; top:-30px; display:none;}
+.box_erwei_big { right: 0; position: relative; text-align: center; top: 0; z-index: 5000; background:url(../images/edo_ser/upprotipw_03.jpg) no-repeat center 20px #f8f8f8; height: 128px; width: 152px; }
+.box_erweiW .block { display: block; }
+*html { background-image: url(about:blank); background-attachment: fixed; }/*解决IE6下滚动抖动的问题*/
+#box_erweiW #mumayiright p b{color:#d71e00;font-size:18px;}
+#box_erweiW #mumayiright .cartnum{color:#676767;font-size:12px;padding:50px 0px 16px;}
+/* J-shoping */
+.deleteBg { background-image: url(../images/edo_ser/deleteBg.jpg); background-repeat: no-repeat; }
+*html .J-shoping { position: absolute; top:expression(eval(document.documentElement.scrollTop));
+margin: 500px 0 0 0; }
+.J-shoping-item { position: relative; padding: 0px 0px; height:24px; }
+.J-shoping-pos { position: absolute; width: 6px; height: 34px; z-index: 920; top: -3px; }
+.J-L-ico { background-position: -55px -84px; left: 0px; }
+.J-R-ico { background-position: -66px -84px; right: 0px; }
+.J-shoping-main { position: relative; }
+.J-shoping-title { height: 27px; cursor: pointer; line-height: 27px; padding: 0px; position: relative; z-index:9999;  }
+.J-shoping-title .J-go { color: #fff; display: block; float: left; }
+.J-shoping-title .J-go em { display: inline-block; width: 17px; height: 14px; vertical-align: middle; margin: -2px 10px 0px 0px; margin-top: 0px\9; background-position: -56px -124px; }
+.J-shoping-body { width: 255px; display: none; border: solid 1px #d6d6d6; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); padding: 10px 10px 35px 10px; position: absolute; bottom: 5px; left: 0px; background: url(../images/edo_ser/p-bg.png) repeat; z-index: 910; }
+.J-shoping-list { padding: 5px; color: #999; border: solid 1px #e3e3e3; background: #fff; height: 50px; margin-bottom: 10px; position: relative; }
+.J-shoping-list-remove { background: #ffd2d3; }
+.J-shoping-list img { float: left; }
+.J-shoping-list-a { float: right; width: 185px; }
+.J-shoping-list-a p { height: 25px; line-height: 25px; }
+.J-shoping-list-a p em { color: #0363BD; font-weight: bold; margin-right: 3px; }
+.J-shoping-close { position: absolute; cursor: pointer; right: 5px; top: 5px; width: 11px; height: 11px; background-position: -32px -147px; overflow: hidden; }
+.J-shoping-close:hover { background-position: -41px -147px; }
+.J-shoping-buy { height: 26px; }
+.J-shoping-buy span { float: left; color: #555; }
+.J-shoping-buy a { width: 112px; height: 26px; background-position: -3px -249px; display: block; float: right; }
+.J-shoping-buy a:hover { background-position: -3px -277px; }
+.J-shoping-px { width: 275px; border: solid 1px #d6d6d6; display: none; box-shadow: 0px 0px 5px #8b8b8b; behavior: url(js/pie.htc); height: 28px; position: absolute; bottom: 5px; left: 0px; background: url(../images/edo_ser/p-bg.png) repeat; z-index: 905; }
+.J-shoping-mx { width: 113px; position: absolute; left: -3px; top: -3px; height: 3px; background-position: -4px -187px; z-index: 921; }
+.J-shoping-small { width:22px!important; float:left;}
+#ljuppro:hover{ opacity:0.8;}
+
+
+/*在线留言弹窗*/
+.mengban{display: none;width:100%;height:100%;background:#000;position: fixed;top:0px;left:0px;z-index:99999;opacity: 0.3;filter:alpha(opacity=30)}
+.tanchuang{display: none;width:588px;height:319px;position: fixed;top:50%;left:50%;margin-left:-294px;margin-top:-160px;background: #fff;z-index:9999999;}
+.tanchuang h3{font-size:14px;color:#fff;height:42px;line-height: 42px;width:540px;padding:0 24px;text-align: left;background: #f00}
+.tanchuang h3 span{float: left;font-size: 12px;margin-top:-5px;}
+.tanchuang .ly_content{width:540px;height:233px;padding:24px 24px 20px 24px;}
+.tanchuang .ly_content .txt_input{cursor: pointer;border:1px solid #dfdfdf;width:75px;height:30px;line-height: 30px;text-align: center;float: left;margin-right:6px;color:#7c7c7c;}
+.tanchuang .ly_content .txt_click{border-color:#d71e00;background:url(/static/images/click.jpg) no-repeat center center;color:#d71e00;}
+.tanchuang .ly_content textarea{resize: none;width:539px;height:143px;margin-top:8px;color:#b5b5b7;}
+.tanchuang .ly_content .btn_input{width:100px;height:25px;line-height: 25px;text-align: center;background: #f00;border:none;margin:22px auto 0;display: block;color:#fff;cursor: pointer;}
+.close_end {position: absolute;right: 10px;top: 6px;color: #FFF;cursor: pointer;z-index: 2;}
